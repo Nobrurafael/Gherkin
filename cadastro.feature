@@ -11,7 +11,7 @@ Dado que eu esteja na tela de cadastro do EBAC-SHOP
 Cenário: Deve ser cadastrado com todos os dados obrigatórios, marcado com asteriscos
 Quando eu estiver na aba de cadastro
 E for inserir meus dados
-Então deve ser preenchido com todos os dados obrigatórios, marcado com asteriscos 
+Então deve aparecer a mensagem "todos os campos marcados com asteiscos são obrigatorios"
 
 Cenário: Não deve permitir campo e-mail com formato inválido. Sistema deve inserir uma mensagem de erro
 Quando eu inserir o e-mail "rafael.sales7x@outlook.com"
